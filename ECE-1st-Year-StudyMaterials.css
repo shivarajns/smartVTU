@@ -79,32 +79,63 @@ a{
 }
 
 
-.main-year-wise-card{
+
+
+
+
+.main-1st-year-sem{
     width: 100%;
     height:auto;
+    /* background-color: red; */
     display: flex;
-    flex-direction: column;
     justify-content: space-around;
-    align-items:center;
-    margin-top: 50px;
-    gap:20px;
-    margin-bottom:10vw;
 }
 
+.p-cycle, .c-cycle{
+    width: 45%;
+    margin: 20px;
+    background-color:rgb(255, 255, 255);
+    border: 0.5px solid black;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
 
-.year-wise-card{
-    width: 50%;
-    height: auto;
-    
+h1{
+    margin: 15px;
 }
-.year-wise-card img{
-    width: 100%;
+.subjects-list{
+    width: fit-content;
     height: auto;
+    padding: 20px;
+    margin: auto;
+
+    text-align: left;
 }
-@media (max-width:606px){
-    .year-wise-card{
-        width: 60vw;
-        height: auto;
-        
+
+.subjects-list ul li{
+    margin: 15px;
+}
+
+@media (max-width:426px){
+    .main-1st-year-sem{
+        flex-direction: column;
+        align-items: center;
+    }
+    .p-cycle, .c-cycle{
+        width: 80%;
+
+    }
+}
+
+@media (max-width:256px){
+    .p-cycle, .c-cycle{
+        font-size: 6vw;
+    }
+}
+
+@media (min-width:426px) and (max-width:490px){
+    .p-cycle, .c-cycle{
+        font-size: 2.9vw;
     }
 }
