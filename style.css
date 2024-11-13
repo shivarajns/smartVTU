@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", serif;
+    background-color: lightcyan;
+}
+header{
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: auto;
+    font-size: 6vw;
+    margin-left: 10%;
+}
+.nav-bar{
+    width:70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-bar nav{
+    width: 100%;
+    height: auto;
+}
+.nav-bar nav ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 3.5vw;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-bar nav ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (min-width:425px) {
+    .nav-bar nav ul{
+        font-size: 3.4vw;
+    }
+
+}
+
+@media (min-width:480px){
+    .nav-bar nav ul{
+        font-size: 15px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+}
+
+.main-cont{
+    width: 100%;
+    height: 150vh;
+}
+
+.cont-one{
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    
+}
+
+.cont-one-card-one{
+    width: 90%;
+    height: 35%;
+    
+    margin: auto;
+}
+.cont-one-card-one img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+
+}
+
+@media (min-width:600px){
+    .cont-one{
+        width: 100%;
+        height: 80vh;
+        display: flex;
+        align-items: center;
+        justify-content:space-around;
+    }
+    .cont-one-card-one{
+        width: 30%;
+    }
+
+}
+.logo-in-main{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+.logo-in-main img{
+    width: 100%;
+    height: auto;
+}
+.card-main-container{
+    width:100%;
+    padding: 10% 0px;
+    height:auto;
+    display: flex; 
+    align-items: center;  
+    justify-content: space-around;
+}
+
+.card{
+    width:25%;
+    height:60%;    
+}
+.card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 30px;
+}
+
+@media (max-width:426px){
+    .card-main-container{
+        flex-direction: column;
+        gap: 40px;
+    }
+    .card{
+        width:50%;
+        height:60%;
+            
+    }
+    .card img{
+        width: 100%;
+        height: 100%;
+        border-radius: 30px;
+    }
+}
