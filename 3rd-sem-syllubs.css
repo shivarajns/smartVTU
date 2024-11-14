@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Poppins", serif;
+    background-color: lightcyan;
+}
+header{
+    width: 100%;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 30%;
+    height: auto;
+    font-size: 6vw;
+    margin-left: 10%;
+}
+.nav-bar{
+    width:70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-bar nav{
+    width: 100%;
+    height: auto;
+}
+.nav-bar nav ul {
+    width: 100%;
+    height: auto;
+    display: flex;
+    font-size: 3.5vw;
+    justify-content: center;
+    gap: 20px;
+}
+.nav-bar nav ul{
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+@media (min-width:425px) {
+    .nav-bar nav ul{
+        font-size: 3.4vw;
+    }
+
+}
+
+@media (min-width:480px){
+    .nav-bar nav ul{
+        font-size: 15px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+}
+
+.logo-in-main{
+    width:100%;
+    height:auto;
+    background-color:white;
+}
+.logo-in-main img{
+    width: 100%;
+    height: auto;
+}
+
+
+/* starts from here */
+
+.pdf{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+}
+.pdf embed{
+    width: 60%;
+    height: 100%;
+}
+
+
+
+
+
+footer{
+    margin-top: 300px;
+}
